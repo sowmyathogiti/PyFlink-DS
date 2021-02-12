@@ -18,3 +18,17 @@ To read a collection of numbers from 0 to 9, filter the even numbers and multipl
 * NetCat Installated
 
 ### Demonstration video link: 
+
+## Vigneshwar Reddy Lenkala
+### Demonstration skill: 
+To read a collection of words, calculate the length of each and return a file with each line containing the word and its length using PyFlink DataStream.
+
+### Prerequisites:
+* Apache Flink Installed (2.12 or 2.11)
+* Java Installed (Java8 or Java11)
+* IntelliJ IDE installed
+* NetCat Installated
+
+### Demonstration video link: 
+
+### References:

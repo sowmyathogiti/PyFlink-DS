@@ -31,4 +31,14 @@ To read a collection of words, calculate the length of each and return a file wi
 
 ### Demonstration video link: 
 
+## Rohitha Reddy Meda
+### Demonstration skill:
+To read a file containing sentences in each line, filter lines containing a certain word and write them to a new file
+
+### Prerequisites:
+* Apache Flink Installed (2.12 or 2.11)
+* Java Installed (Java8 or Java11)
+* IntelliJ IDE installed
+* NetCat Installed
+
 ### References:

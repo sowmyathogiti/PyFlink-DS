@@ -95,12 +95,6 @@ To read a file containing sentences in each line, filter lines containing a cert
 * For spark and hadoop, Flink provides significantly higher processing speeds.
 * Flink provides low latency and high throughput.
 
-### How to download Flink:
-* Check the versions of pip and python in terminal of IntelliJ IDE using:
-    * pip --version
-Flink provides low latency and high throughput    * python --version
-* Once the python is of version 3.7.0, use below command to run in terminal opened in IntelliJ IDE using:
-    * pip install apache-flink
 
 ### Flink set-up using python:
 * Create a new file using File\New\Python file

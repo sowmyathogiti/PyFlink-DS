@@ -12,8 +12,8 @@ Python Flink (DataStream)
 To read a collection of numbers from 0 to 9, filter the even numbers and multiply them by 10 and finally store them in another collection using PyFlink DataStream.
 
 ### Prerequisites:
-* Apache Flink Installed (2.12 or 2.11)
-* IntelliJ IDE installed
+* Apache Flink Installed (2.12 or 2.11) 
+* IntelliJ IDE installed from [source](https://www.jetbrains.com/idea/download/#section=windows)
 * PIP installed
 * Python 3.7 version installed and set in path of environment variables
 

@@ -2,9 +2,7 @@ from pyflink.common.serialization import SimpleStringEncoder
 from pyflink.common.typeinfo import Types
 from pyflink.datastream.connectors import StreamingFileSink
 from pyflink.datastream import StreamExecutionEnvironment
-from pyflink.table import StreamTableEnvironment, DataTypes
-from pyflink.table.descriptors import Schema, OldCsv, FileSystem
-from pyflink.table.udf import udf
+
 def collectionsOfNumbers():
     env = StreamExecutionEnvironment.get_execution_environment()
     env.set_python_requirements("./input","./output")

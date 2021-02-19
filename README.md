@@ -39,9 +39,18 @@ Flink provides low latency and high throughput    * python --version
 * Under Add python SDk Interpreter - select Virtualenv Environment - Base interpreter--select the path of python 3.7(python.exe).
 * Click OK
 * Click apply and then OK again.
-* After applying SDK changes, venv folder is created by default which stores all respective libraries and scripts.
+* After applying SDK changes, venv folder is created by default which stores all respective libraries and scripts.  
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/sdk%20setup.png)   
 
+### Source code of above topic:
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/code.JPG)   
 
+### References:  
+* [DataStream API](https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html)
+* [Sample codes](https://ci.apache.org/projects/flink/flink-docs-master/api/python/_modules/pyflink/datastream/data_stream.html)
+* [Documentation part](https://ci.apache.org/projects/flink/flink-docs-release-1.9/api/python/pyflink.datastream.html)
+* [stackoverflow sol1](https://stackoverflow.com/questions/62820531/python-flink-instalation-failed-to-find-the-file-flink-1-12-snapshot-bin-flink)
+* [stackoverflow sol2](https://stackoverflow.com/questions/62232422/flink-cluster-not-starting-due-to-could-not-find-or-load-main-class-error)
 
 ### Demonstration video link: 
 

@@ -51,11 +51,32 @@ To read a collection of words, calculate the length of each and return a file wi
 
 ### Prerequisites:
 * Apache Flink Installed (2.12 or 2.11)
-* Java Installed (Java8 or Java11)
+* PIP installed
 * IntelliJ IDE installed
-* NetCat Installated
+* Python 3.7 version installed 
+
+### Introduction to DataStream API
+* Apache Flink is an Open source stream processing framework for distributed, high performance data streaming application.
+* Apache Flink offers a DataStream API for building robust, stateful streaming applications.
+* It provides fine-grained control over state and time, which allows for the implementation of advanced event-driven systems.
+* Flink also provides batch processing, graph processing, Itearative proccessing for Machine learning applications.
+* Flink is considered as the next-gen stream processing system.
+* Flink offers substantially higher processing speeds to spark and hadoop.
+* Flink provides low latency and high throughput
+
+### Installation steps of PyFlink
+*  Python version (3.5, 3.6, 3.7 or 3.8) is required for PyFlink. Please run the following command to make sure that it meets the requirements:
+-   $ python --version
+* Check the version of pip using command:
+-   $ pip --version
+* Use the below command to install apache-flink 1.12.0
+-  $ python -m pip install apache-flink 1.12.0
 
 ### Demonstration video link: 
+
+### References:
+* [https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html](https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html)
+* [https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/python/installation.html](https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/python/installation.html)
 
 ## Rohitha Reddy Meda
 ### Demonstration skill:

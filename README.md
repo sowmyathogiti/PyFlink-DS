@@ -82,6 +82,8 @@ To read a collection of words, calculate the length of each and return a file wi
 * Use the below command to install apache-flink 1.12.0
 -  $ python -m pip install apache-flink 1.12.0
 
+### Code snippet:
+
 ### Demonstration video link: 
 [Vignesh Demo Video](https://app.vidgrid.com/view/mV4LY7mWVvwK/?sr=WHNlzI)
 

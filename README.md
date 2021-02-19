@@ -84,13 +84,16 @@ To read a collection of words, calculate the length of each and return a file wi
 
 ### Code snippet:
 
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Vignesh/Collection%20of%20words%20code%20snippet.png)
+
 ### Demonstration video link: 
 [Vignesh Demo Video](https://app.vidgrid.com/view/mV4LY7mWVvwK/?sr=WHNlzI)
 
 ### References:
 * [https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html](https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html)
-* [https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/python/installation.html](https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/python/installation.html)
+* [https://ci.apache.org/projects/flink/flink-docs-master/api/python/_modules/pyflink/datastream/data_stream.html](https://ci.apache.org/projects/flink/flink-docs-master/api/python/_modules/pyflink/datastream/data_stream.html)
 * [https://flink.apache.org/downloads.html#flink](https://flink.apache.org/downloads.html#flink)
+* [https://ci.apache.org/projects/flink/flink-docs-release-1.9/api/python/pyflink.datastream.html](https://ci.apache.org/projects/flink/flink-docs-release-1.9/api/python/pyflink.datastream.html)
 
 ## Rohitha Reddy Meda
 ### Demonstration skill:

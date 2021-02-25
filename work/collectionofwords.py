@@ -10,18 +10,18 @@ def collectionOfWords():
     env.set_parallelism(1)
     t_env = StreamTableEnvironment.create(env)
 
-    add = udf(lambda i: len(i), [ DataTypes.STRING()], DataTypes.BIGINT())
+    add = udf(lambda i: "text : "+ i + " | len : " +str(len(i)), [ DataTypes.STRING()], DataTypes.STRING())
 
     t_env.register_function("add", add)
 
-    t_env.connect(FileSystem().path('/tmp/input')) \
+    t_env.connect(FileSystem().path('./input.txt')) \
         .with_format(OldCsv() \
-                     .field('i', DataTypes.STRING()) \
-                     .with_schema(Schema() \
-                                  .field('i', DataTypes.STRING())) \
-                     .create_temporary_table('mySource'))
+                     .field('i', DataTypes.STRING())) \
+        .with_schema(Schema() \
+                     .field('i', DataTypes.STRING())) \
+        .create_temporary_table('mySource')
 
-    t_env.connect(FileSystem().path('/tmp/output')) \
+    t_env.connect(FileSystem().path('./output.txt')) \
         .with_format(OldCsv()
                      .field('rsl', DataTypes.STRING())) \
         .with_schema(Schema()
@@ -33,5 +33,6 @@ def collectionOfWords():
         .insert_into('mySink')
 
     t_env.execute("tutorial_job")
-if _name_ == '_main_':
-collectionOfWords()
+
+if __name__ == '__main__':
+    collectionOfWords()

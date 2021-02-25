@@ -16,6 +16,7 @@ To read a collection of numbers from 0 to 9, filter the even numbers and multipl
 * IntelliJ IDE installed from [source](https://www.jetbrains.com/idea/download/#section=windows)
 * PIP installed
 * Python 3.7 version installed and set in path of environment variables
+* pyflink installed [source](https://pypi.org/project/pyflink/)
 
 ### Introduction to DataStream API:  
 * Apache Flink offers a DataStream API for building robust, stateful streaming applications.
@@ -27,9 +28,17 @@ To read a collection of numbers from 0 to 9, filter the even numbers and multipl
 ### How to download Flink:
 * Check the versions of pip and python in terminal of IntelliJ IDE using:
     * pip --version
-Flink provides low latency and high throughput    * python --version
+    * python --version
 * Once the python is of version 3.7.0, use below command to run in terminal opened in IntelliJ IDE using:
     * pip install apache-flink
+* Install pyflink using below command in terminal:
+  pip install pyflink
+
+### How to setup pyflink:
+* open IntelliJ IDE and open the installed path of pyflink from file select.
+* Build project from build menu.
+* Run whole project and wait for all the dependencies installed into your local machine.
+* Start working on pyflink projects.
 
 ### Flink set-up using python:
 * Create a new file using File\New\Python file
@@ -43,7 +52,7 @@ Flink provides low latency and high throughput    * python --version
 ![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/sdk%20setup.png)   
 
 ### Source code of above topic:
-![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/code.JPG)   
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/code.JPG) 
 
 ### References:  
 * [DataStream API](https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html)
@@ -53,7 +62,7 @@ Flink provides low latency and high throughput    * python --version
 * [stackoverflow sol2](https://stackoverflow.com/questions/62232422/flink-cluster-not-starting-due-to-could-not-find-or-load-main-class-error)
 
 ### Demonstration video link: 
-[Sowmya Demo video](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/SowmyaDemo.mp4)
+[Sowmya Demo video](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/Sowmya-pyflink-ds.mp4)
 
 ## Vigneshwar Reddy Lenkala
 ### Demonstration skill: 

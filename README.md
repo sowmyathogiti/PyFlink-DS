@@ -52,7 +52,10 @@ To read a collection of numbers from 0 to 9, filter the even numbers and multipl
 ![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/sdk%20setup.png)   
 
 ### Source code of above topic:
-![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/code.JPG) 
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/code.JPG)   
+
+### Output:   
+![](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/output.JPG)   
 
 ### References:  
 * [DataStream API](https://ci.apache.org/projects/flink/flink-docs-stable/dev/python/datastream_tutorial.html)

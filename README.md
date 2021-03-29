@@ -65,7 +65,7 @@ To read a collection of numbers from 0 to 9, filter the even numbers and multipl
 * [stackoverflow sol2](https://stackoverflow.com/questions/62232422/flink-cluster-not-starting-due-to-could-not-find-or-load-main-class-error)
 
 ### Demonstration video link: 
-[Sowmya Demo video](https://github.com/sowmyathogiti/PyFlink-DS/blob/main/images/Sowmya/Sowmya-pyflink-ds.mp4)
+[Sowmya Demo video](https://app.vidgrid.com/view/kLvme9TO4mAE/?sr=TWaVRh)
 
 ## Vigneshwar Reddy Lenkala
 ### Demonstration skill: 
